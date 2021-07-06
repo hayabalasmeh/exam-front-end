@@ -15,7 +15,7 @@ export class Drink extends Component {
                     <Card.Body>
                         <Card.Title>{this.props.item.strDrink}</Card.Title>
 
-                        <Button variant="primary" onClick={() => this.props.addingToFav(this.props.index)}>Add to favorite</Button>
+                        <Button variant="primary" onClick={() => this.props.addingToFav(this.props.index)}>Add to favorite list</Button>
                     </Card.Body>
                 </Card>
             </div>
